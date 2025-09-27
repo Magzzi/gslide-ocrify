@@ -28,7 +28,7 @@ folder.mkdir(parents=True, exist_ok=True)
 
 p_id = input("Enter embedded id: ")
 url = f"https://docs.google.com/presentation/d/e/{p_id}/pub?start=false&loop=false&delayms=3000"
-total_slides = 34
+total_slides = int(input("Enter page range: "))
 
 with sync_playwright() as p:
     browser = p.chromium.launch(headless=True)
