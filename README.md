@@ -3,6 +3,9 @@
 
 This project uses Python, Tesseract OCR, and Playwright to extract text from images/PDFs and merge PDF files.
 
+## Setup and Installation Batch File
+- [Download Batch File Here](https://drive.google.com/file/d/1uoEwz1z8JQt61altt9c5m4RULCepNOZ5/view?usp=sharing)
+  
 ## Prerequisites
 - Python 3.9+ installed
 - [Tesseract OCR](https://github.com/tesseract-ocr/tesseract) installed on your system  
